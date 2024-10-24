@@ -7,7 +7,7 @@ from threading import Lock
 
 # WebDriver pool class to manage ChromeDriver instances
 class WebDriverPool:
-    def __init__(self, pool_size=5, version=None, path=None, headless=True):
+    def __init__(self, pool_size=1, version=None, path=None, headless=True):
         self.pool_size = pool_size
         self.pool = Queue(maxsize=pool_size)
         self.lock = Lock()
@@ -60,11 +60,17 @@ class WebDriverPool:
                 # If pool is full, quit the driver
                 driver.quit()
             else:
-                # Instead of quitting, just close the current page
-                driver.close()  # Only close the current tab
+                # Check if there are still open windows
+                if len(driver.window_handles) > 1:
+                    driver.close()  # Only close the current tab if there are multiple tabs
+                else:
+                    driver.quit()  # If there's only one tab, quit the driver
+                    driver = self._create_driver()  # Create a new driver to return to the pool
+                
                 # Open a blank page to avoid errors in future interactions
                 driver.get("about:blank")
                 self.pool.put(driver)
+
 
     # Shutdown the pool and close all drivers
     def shutdown_pool(self):
