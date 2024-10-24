@@ -1,0 +1,60 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "@id": "https://lu.ma/o5d4isdc",
+    "name": "Solana Mixer with Superteam SG & Nansen",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+        "@type": "Place",
+        "name": "Singapore",
+        "address": "Register to See Address",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "1.28500",
+            "longitude": "103.85250"
+        },
+        "latitude": "1.28500",
+        "longitude": "103.85250"
+    },
+    "image": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=500,height=500/event-covers/oc/c1b1065a-e977-4d06-bff5-cf1ddf491489"
+    ],
+    "description": "Mark your calendars for an unforgettable evening with Superteam SG and Nansen!\nAs the workday winds down, get ready for an insightful event where crypto enthusiasts, innovators, and thought leaders gather to connect and share ideas. This event is the perfect opportunity to network and explore the latest developments in the Solana ecosystem!\nWhy attend?\nBe among the first to explore Nansen's newly launched Solana analytics, giving you powerful insights into the Solana ecosystem.\nExpand your network and discover new partnerships and growth opportunities.\nDelicious food and drinks will be provided!",
+    "startDate": "2024-10-24T18:00:00.000+08:00",
+    "endDate": "2024-10-24T20:00:00.000+08:00",
+    "offers": [
+        {
+            "@type": "Offer",
+            "url": "https://lu.ma/o5d4isdc",
+            "name": "General Admission",
+            "price": 0,
+            "priceCurrency": "usd",
+            "availability": "https://schema.org/InStock"
+        }
+    ],
+    "organizer": [
+        {
+            "@type": "Organization",
+            "name": "Nansen",
+            "url": "https://lu.ma/user/nansen_ai"
+        },
+        {
+            "@type": "Organization",
+            "name": "Nick",
+            "url": "https://lu.ma/user/tongnk"
+        }
+    ],
+    "performer": [
+        {
+            "@type": "Organization",
+            "name": "Nansen",
+            "url": "https://lu.ma/user/nansen_ai"
+        },
+        {
+            "@type": "Organization",
+            "name": "Nick",
+            "url": "https://lu.ma/user/tongnk"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "description": "Join us for an Engineering career happy hour event hosted by SignalFire, featuring special guest Alan Shreve, Founder of Ngrok, a tool used by millions of developers every day.\nIn this event, Alan will share his engineering career milestones and talk about his experience bootstrapping and transitioning from full-time engineer to CEO. Attendees will have the opportunity to engage in discussions, ask questions, and network with other engineers in a casual setting.\nThis event aims to provide valuable insights and strategies for engineers at various stages of their careers who are looking to advance their professional growth and explore new opportunities.",
+    "end_date": "2024-10-23T19:30:00.000-07:00",
+    "event_name": "Engineering Career Happy Hour feat. ngrok creator Alan Shreve",
+    "location": "San Francisco, California",
+    "offers": [
+      "General Admission"
+    ],
+    "organizers": [
+      "Jarod",
+      "Andrew Reid"
+    ],
+    "performers": [
+      "Jarod",
+      "Andrew Reid"
+    ],
+    "source_link": "https://lu.ma/SFSFEvents?k=c",
+    "source_name": "SignalFire Events",
+    "source_type": "luma",
+    "start_date": "2024-10-23T17:30:00.000-07:00",
+    "status": "EventScheduled",
+    "url": "https://lu.ma/sfsparks1023"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "@id": "https://lu.ma/sui-bkk-hh-2024",
+    "name": "Apply for Sui Hacker House: Bangkok (Devcon 2024) - Applications Closed",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+        "@type": "Place",
+        "name": "Bangkok, Bangkok",
+        "address": "Register to See Address",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "13.75750",
+            "longitude": "100.50250"
+        },
+        "latitude": "13.75750",
+        "longitude": "100.50250"
+    },
+    "image": [
+        "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=500,height=500/event-covers/16/2e86aad3-8598-4d86-93ee-8e653fe8aeb8"
+    ],
+    "description": "Thank you for your interest in the Sui Hacker House: Bangkok! We are no longer accepting applications for this event. However, you can still explore our future events and learn more about Sui Foundation by visiting our website.\n\nIn the meantime, we would love you to join us at Sui Connect(https://lu.ma/SuiConnectBangkok).\nFor those already registered, please check your email for further instructions and stay tuned for more information.\n-------------------------\nJoin us for the 2-week Sui Hacker House: Bangkok, co-organized by Contribution DAO, Open Build, Move Funs DAO, and Sui Foundation.\nLearn Move with other developers and build a minimum viable product (MVP) on Sui by the end of 2 weeks. You are expected to present your MVP on Demo Day (Nov 16), during Devcon 2024.\nYou may choose to work independently or form teams with your cohort peers.\nDates: Nov 4-17, 2024\nLocation: Bangkok, Thailand\nAccommodation: There will be an application and selection process for this program. Those approved will enjoy complimentary accommodation.\nA typical day:\n2-hr workshop on Move\nWork on your MVP to present on Demo Day\nExplore Bangkok or relax\nEligibility: You don't necessarily have to be a Web3 developer. You should be able to follow the documentation, like any Web2/conventional developer would, and you should be motivated to build a project on Sui.\nPlease note that participants will be selected based on their qualifications and alignment with the goals of the hacker house. Only selected individuals will receive invitations to join.\nApplication Process:\nMake sure you are available and able to physically be in Bangkok from Nov 4-17.\nRegister / apply for this event. This registration form is your application form.\nYou may be contacted for an interview.\nNote: We are not able to provide any visa support. Please make sure you are able to arrive by November 4 and stay until the end of the program on November 17.\nThis is your chance to learn and build on Sui with other developers for 2 weeks and explore one of the most exciting cities in the world!\nSo, mark your calendars for November 4-17, 2024, pack your bags, and get ready to hack, learn, and explore at Sui Hacker House (Devcon 2024) in Bangkok.\n** Apply ASAP to maximize your chances of getting accepted! **\nAbout Sui\nSui is a first-of-its-kind Layer 1 blockchain and smart contract platform designed from the bottom up to make digital asset ownership fast, private, secure, and accessible to everyone. Its object-centric model, based on the Move programming language, enables parallel execution, sub-second finality, and rich on-chain assets. With horizontally scalable processing and storage, Sui supports a wide range of applications with unrivaled speed at low cost. Sui is a step-function advancement in blockchain and a platform on which creators and developers can build amazing, user-friendly experiences. Learn more: https://sui.io\n\n----\nUSE OF YOUR LIKENESS. You acknowledge that photography, audio and video recordings may occur at our Events, and by participating in an Event, you grant to us the right at the Event to record, film, photograph, or capture your likeness in any media now available or hereafter developed and to distribute, broadcast, use or otherwise to disseminate, globally, in perpetuity, such media without any further approval from you or any payment to you. This grant to us includes, but is not limited to, the right to edit such media and the right to use the media alone or together with other information.",
+    "startDate": "2024-11-04T09:00:00.000+07:00",
+    "endDate": "2024-11-04T10:00:00.000+07:00",
+    "offers": [
+        {
+            "@type": "Offer",
+            "url": "https://lu.ma/sui-bkk-hh-2024",
+            "name": "General Admission",
+            "price": 0,
+            "priceCurrency": "usd",
+            "availability": "https://schema.org/InStock"
+        }
+    ]
+}
