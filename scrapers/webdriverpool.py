@@ -7,12 +7,13 @@ from threading import Lock
 
 # WebDriver pool class to manage ChromeDriver instances
 class WebDriverPool:
-    def __init__(self, pool_size=5, version=None, headless=True):
+    def __init__(self, pool_size=5, version=None, path=None, headless=True):
         self.pool_size = pool_size
         self.pool = Queue(maxsize=pool_size)
         self.lock = Lock()
         self.version = version
         self.headless = headless
+        self.path = path
 
         # Initialize the pool with ChromeDriver instances
         for _ in range(pool_size):
@@ -23,6 +24,7 @@ class WebDriverPool:
         chrome_options = Options()
         if self.headless:
             chrome_options.add_argument("--headless")
+        chrome_options.binary_location = self.path
         
         # If version is not provided, use the latest version of ChromeDriver
         if self.version:

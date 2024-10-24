@@ -10,7 +10,8 @@ app = Flask(__name__)
 
 # Initialize WebDriver pool with version or latest ChromeDriver
 chrome_version = os.getenv('CHROME_VERSION')  # Get Chrome version from .env
-driver_pool = WebDriverPool(pool_size=5, version=chrome_version)
+chrome_path = os.getenv('CHROME_PATH')
+driver_pool = WebDriverPool(pool_size=5, version=chrome_version, path=chrome_path)
 
 # Endpoint to get a list of events
 @app.route('/get_list', methods=['GET'])
