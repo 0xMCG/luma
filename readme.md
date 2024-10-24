@@ -4,11 +4,12 @@ pip install -r requirement.txt
 ```
 
 # Edit
-Edit `.env` file to set the server config.
+Create `.env` file to set the server config.
 ```
 HOST=0.0.0.0
 PORT=5000
 DEBUG=false
+CHROME_VERSION=<input your version of chrome>
 ```
 
 # Run
