@@ -60,7 +60,10 @@ class WebDriverPool:
                 # If pool is full, quit the driver
                 driver.quit()
             else:
-                # Otherwise, put the driver back in the pool
+                # Instead of quitting, just close the current page
+                driver.close()  # Only close the current tab
+                # Open a blank page to avoid errors in future interactions
+                driver.get("about:blank")
                 self.pool.put(driver)
 
     # Shutdown the pool and close all drivers
