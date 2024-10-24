@@ -23,7 +23,11 @@ class WebDriverPool:
     def _create_driver(self):
         chrome_options = Options()
         if self.headless:
-            chrome_options.add_argument("--headless")
+            chrome_options.add_argument("--headless")  # Run in headless mode
+            chrome_options.add_argument("--disable-gpu")  # Disable GPU acceleration
+            chrome_options.add_argument("--no-sandbox")  # Disable sandboxing (required in some Linux environments)
+            chrome_options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
+            
         chrome_options.binary_location = self.path
         
         # If version is not provided, use the latest version of ChromeDriver
